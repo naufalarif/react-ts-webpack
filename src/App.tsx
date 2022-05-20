@@ -5,7 +5,9 @@ import Counter from './Counter';
 
 const App: FunctionComponent = () => (
   <div>
-    <h1>Edited Hello App - {process.env.NODE_ENV} | {process.env.name}</h1>
+    <h1>
+      Edited Hello App - {process.env.NODE_ENV} | {process.env.name}
+    </h1>
     <img src={Image} alt="react-logo" width={300} />
     <Counter />
   </div>

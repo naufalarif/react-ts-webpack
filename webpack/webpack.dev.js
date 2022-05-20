@@ -13,5 +13,5 @@ module.exports = {
       'process.env.name': JSON.stringify('Development'), // refers to process.env.name variable
     }),
     new ReactRefreshWebpackPlugin(),
-  ]
-}
+  ],
+};
