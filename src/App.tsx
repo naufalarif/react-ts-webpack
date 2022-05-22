@@ -2,6 +2,7 @@ import './styles.css';
 import Image from './react.png';
 import { FunctionComponent } from 'react';
 import Counter from './Counter';
+// import { Home } from './Container';
 
 const App: FunctionComponent = () => (
   <div>
@@ -10,6 +11,7 @@ const App: FunctionComponent = () => (
     </h1>
     <img src={Image} alt="react-logo" width={300} />
     <Counter />
+    {/* <Home /> */}
   </div>
 );
 
